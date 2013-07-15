@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+                        <!-- Row 1 with single column -->
+                        
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent" 
+                                android:layout_height="wrap_content"
+                                android:textSize="30dp" 
+                                android:text="Information Technology"  
+                                android:layout_span="3"
+                                android:gravity="center"
+                                android:padding="18dip" 
+                                android:textStyle="bold"
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"/>
+                             
+                       </TableRow>
+                       
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent" 
+                                android:layout_height="wrap_content"
+                                android:textSize="25dp" 
+                                android:text="YEAR"  
+                                android:textStyle="bold"
+                                android:layout_span="3"
+                                
+                                android:padding="18dip" 
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"/>
+                             
+                       </TableRow>
+         
+                         
+                        <!-- Row 3 with 2 columns -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:id="@+id/text31"
+                                android:text="F.Y.B.Tech" 
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"
+                                android:padding="18dip" 
+                                />
+
+                             
+                        </TableRow>
+                        
+                          <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:id="@+id/text32" 
+                                android:text="S.Y.B.Tech"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"
+                                android:padding="18dip" 
+                                />
+
+                        </TableRow>
+                        
+                          
+                        <!-- Row 4 with 2 columns -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+                            <TextView
+                                android:id="@+id/text33" 
+                                android:text="T.Y.B.Tech"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"
+                                android:padding="18dip" 
+                                />
+
+                           
+                            </TableRow>
+                            
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+                            <TextView
+                                android:id="@+id/text34" 
+                                android:text="B.tech"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:textColor="#000000"
+                                android:padding="18dip" 
+                                />
+
+                           
+                            </TableRow>
+                            
+</TableLayout>

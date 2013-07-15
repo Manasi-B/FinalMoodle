@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+
+
+        <TextView
+            android:id="@+id/Sem7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="left"
+            android:text="Sem7"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+            
+         
+                <TextView
+            android:id="@+id/text111"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Elective-II(Yet to be uploaded)"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text112"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Data Mining"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text113"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Distributed System "
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text114"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Parallel Processing"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text115"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Service Oriented Architecture"
+            android:textColor="#000000"
+            
+             />
+         
+         <TextView
+            android:id="@+id/Sem8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Sem8"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dip"
+             />
+         
+             <TextView
+                 android:id="@+id/text116"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="10dip"
+                 android:layout_marginTop="10dip"
+                 android:layout_weight="0.01"
+                 android:gravity="left"
+                 android:text="Elective-III(Yet to be uploaded)"
+                 android:textColor="#000000" />
+        
+        <TextView
+            android:id="@+id/text117"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Cloud Computing"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text118"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Network Security"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text119"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Embedded System"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text120"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="IT Service Management"
+            android:textColor="#000000"
+            
+             />
+        
+</LinearLayout>
+</ScrollView>

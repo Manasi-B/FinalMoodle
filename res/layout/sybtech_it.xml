@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/sem3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="left"
+            android:text="Sem3"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+            
+         
+                 <TextView
+            android:id="@+id/text70"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Engineering Mathematics-I"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text71"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Discrete Structure"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text72"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Principle Of Communication Engineering"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text73"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Digital System"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text74"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Data Structure And Algorithm"
+            android:textColor="#000000"
+             />
+         
+         <TextView
+            android:id="@+id/text75"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Environmental Studies"
+            android:textColor="#000000"
+             /> 
+         
+         <TextView
+            android:id="@+id/sem4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Sem4"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dip"
+             />
+         
+             <TextView
+            android:id="@+id/text76"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Engineering Mathematics-II"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text77"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Computer Organization And Architecture"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text78"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Microprocessor And Microcontroller"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text79"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Database Application"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text80"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="System Software"
+            android:textColor="#000000"
+            
+             />
+        
+
+</LinearLayout>
+</ScrollView>

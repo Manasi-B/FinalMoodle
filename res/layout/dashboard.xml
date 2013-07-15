@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+  android:background="#ffffff">
+    
+    	<include layout="@layout/actionbar_layout"/>
+    
+    		
+    	<!--  lect_notes -->
+
+    	
+
+    	<TableRow
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center_horizontal" >
+
+    		<Button
+    		    android:id="@+id/btn_lect_notes"
+    		    style="@style/DashboardButton"
+    		    android:drawableTop="@drawable/btn_lect_notes"
+    		    android:text="Notes" />
+
+    	    
+
+    	    <Button
+    	        android:id="@+id/btn_assignments"
+    	        style="@style/DashboardButton"
+    	        android:drawableTop="@drawable/btn_assignments"
+    	        android:text="Assignments" />
+    	    
+    	    <!--  Events -->
+    <Button
+        android:id="@+id/btn_event"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_event"
+        android:text="Events" />
+
+    	</TableRow>
+
+	
+	<TableRow
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center_horizontal" >
+    	
+    <!--  Syllabus -->
+
+		<Button
+		    android:id="@+id/btn_syllabus"
+		    style="@style/DashboardButton"
+		    android:drawableTop="@drawable/btn_syllabus"
+		    android:text="Syllabus" />
+
+    <!--  Settings -->
+    <Button
+        android:id="@+id/btn_settings"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_settings"
+        android:text="Setting" />
+
+    <!--  Help -->
+    <Button
+        android:id="@+id/btn_help"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_help"
+        android:text="Help" />	
+		
+    </TableRow>
+    
+	
+	
+
+<SlidingDrawer
+	    android:id="@+id/slidingDrawer1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:content="@+id/content"
+	    android:handle="@+id/handle" >
+    
+	
+
+	    <ImageButton
+	        android:id="@+id/handle"
+	        android:src="@drawable/handle_pressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+	    
+	    
+	    <LinearLayout
+	        android:id="@+id/content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	        
+	
+	        
+	        <TextView
+	            android:id="@+id/link_to_login"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="logout"
+	        	android:textColor="#00004c" />
+	        
+	    
+	    </LinearLayout>
+	</SlidingDrawer> 
+   	
+		
+    	    </TableLayout>

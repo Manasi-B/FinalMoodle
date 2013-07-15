@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+
+
+        <TextView
+            android:id="@+id/sem1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="left"
+            android:text="Sem1"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+            
+         
+                 <TextView
+            android:id="@+id/text50"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied ChemistryI"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text51"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied PhysicsI"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text52"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied Mathematics I"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text53"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Basic Electrical And Electronics Engineering"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text54"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Computer Programming"
+            android:textColor="#000000"
+             />
+         
+         <TextView
+            android:id="@+id/sem2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Sem2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dip"
+             />
+         
+             <TextView
+            android:id="@+id/text55"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied ChemistryII"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text56"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied PhysicsII"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text57"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied MathsII"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text58"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Applied Mechanices"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text59"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Engineering Graphics"
+            android:textColor="#000000"
+            
+             />
+        
+
+</LinearLayout>
+</ScrollView>

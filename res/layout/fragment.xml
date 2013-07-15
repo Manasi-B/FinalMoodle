@@ -1,0 +1,50 @@
+<com.example.finalmoodle.Dashboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    
+	<!--  lect_notes -->
+    <Button
+        android:id="@+id/btn_lect_notes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_lect_notes"
+        android:text="Lect Notes" />
+    
+	<!--  Asssignments -->
+    <Button
+        android:id="@+id/btn_assignments"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_assignments"
+        android:text="Assignments" />
+    
+	<!--  Events -->
+    <Button
+        android:id="@+id/btn_event"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_event"
+        android:text="Events" />
+	
+    <!--  Syllabus -->
+    <Button
+        android:id="@+id/btn_syllabus"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_syllabus"
+        android:text="Syllabus" />
+
+    <!--  Settings -->
+    <Button
+        android:id="@+id/btn_settings"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_settings"
+        android:text="Setting" />
+
+    <!--  Help -->
+    <Button
+        android:id="@+id/btn_help"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_help"
+        android:text="Help" />
+
+</com.example.finalmoodle.Dashboard>

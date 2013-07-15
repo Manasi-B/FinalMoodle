@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#d3d3d3">
+	
+			
+			<TextView android:layout_width="fill_parent"
+		        	android:layout_height="wrap_content"
+		        	
+		        	android:text="Settings"
+		        	android:textSize="30dp"
+		        	android:padding="20dip"
+		        	android:textStyle="bold"
+		        	android:textColor="#000000"/>    
+		    
+		<!--  	<TextView android:layout_width="fill_parent"
+		        	android:layout_height="wrap_content"
+		        	
+		        	android:text="change Password"
+		        	android:textSize="25sp"
+		        	android:padding="15dip"
+		        	android:textStyle="bold"
+		        	android:textColor="#ff29549f"/>    	-->
+			
+			<TextView android:layout_width="fill_parent"
+		        	android:layout_height="wrap_content"
+		        	android:id="@+id/link_to_contact_us"
+		        	android:text="Contact us"
+		        	android:textSize="25dp"
+		        	android:padding="15dip"
+		        	
+		        	android:textColor="#000000"/>    
+			
+			<TextView 
+			    	android:id="@+id/link_to_login"
+			    	android:layout_width="fill_parent"
+		        	android:layout_height="wrap_content"
+		        	android:text="Logout"
+		        	android:textSize="25dp"
+		        	android:padding="15dip"
+		        	
+		        	android:textColor="#000000"/>    
+			
+  
+
+</LinearLayout>

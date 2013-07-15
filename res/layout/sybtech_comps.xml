@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+
+
+        <TextView
+            android:id="@+id/sem3c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="left"
+            android:text="Sem3"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+            
+         
+                 <TextView
+            android:id="@+id/text81"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Engineering Mathematics-I"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text82"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="information Theory And Coding"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text83"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Computer Programming-II"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text84"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Operating System"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text85"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Environmental Studies"
+            android:textColor="#000000"
+             />
+         
+         <TextView
+            android:id="@+id/sem4c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Sem4"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dip"
+             />
+         
+             <TextView
+            android:id="@+id/text86"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Engineering Mathematics-II"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text87"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Electroincs And Communication System"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text88"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Computer Organization, Assembly And Maintainance"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text89"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="TCP/IP Suit"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text90"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Data Structure And Algorithms"
+            android:textColor="#000000"
+            
+             />
+        
+
+</LinearLayout>
+</ScrollView>

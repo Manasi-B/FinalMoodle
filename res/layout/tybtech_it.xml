@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Sem5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="left"
+            android:text="Sem5"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+            
+         
+                 <TextView
+            android:id="@+id/text91"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Software Engineering"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text92"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Computer Networks"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text93"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Automata Theory"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text94"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Operating System With UNIX"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text95"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Database System"
+            android:textColor="#000000"
+             />
+         
+         <TextView
+            android:id="@+id/Sem6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Sem6"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dip"
+             />
+         
+             <TextView
+            android:id="@+id/text96"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Software Project management"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text97"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Mobile Computing"
+            android:textColor="#000000"
+            
+             />
+        
+        <TextView
+            android:id="@+id/text98"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Web Technology"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text99"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Object Oriented Software Engineering"
+            android:textColor="#000000"
+            
+             />
+        
+         <TextView
+            android:id="@+id/text100"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.01"
+            android:gravity="left"
+            android:text="Artificial Intelligence"
+            android:textColor="#000000"
+            
+             />
+        
+
+</LinearLayout>
+</ScrollView>

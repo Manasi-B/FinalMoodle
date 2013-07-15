@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalmoodle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vjtilogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.finalmoodle.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Android"
+            android:label="@string/title_activity_android" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Lect_notes"
+            android:label="@string/title_activity_lect_notes" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.AI"
+            android:label="@string/title_activity_ai" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Syllabus"
+            android:label="@string/title_activity_syllabus" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.ITSyllabus"
+            android:label="@string/title_activity_itsyllabus" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.CompsSyllabus"
+            android:label="@string/title_activity_comps_syllabus" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Assignments"
+            android:label="@string/title_activity_assignments" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.Logout"
+            android:label="@string/title_activity_logout" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.ITAssignment"
+            android:label="@string/title_activity_itassignment" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.CompsAssignment"
+            android:label="@string/title_activity_comps_assignment" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.ITEvent"
+            android:label="@string/title_activity_itevent" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.CompsEvent"
+            android:label="@string/title_activity_comps_event" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.FirstYear"
+            android:label="@string/title_activity_first_year" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.FYBtech"
+            android:label="@string/title_activity_fybtech" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.SYBTechIT"
+            android:label="@string/title_activity_sybtech_it" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.TYBTechIT"
+            android:label="@string/title_activity_tybtech_it" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.BTechIT"
+            android:label="@string/title_activity_btech_it" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.SYBTechComps"
+            android:label="@string/title_activity_sybtech_comps" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.TYBTechComps"
+            android:label="@string/title_activity_tybtech_comps" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.BTechComps"
+            android:label="@string/title_activity_btech_comps" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.FYBTechComps"
+            android:label="@string/title_activity_fybtech_comps" >
+        </activity>
+        <activity
+            android:name="com.example.finalmoodle.ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dip"
+             android:layout_marginTop="10dip"
+             android:layout_weight="0.00"
+             android:textColor="#000000"
+             android:text="Assignments"
+             android:padding="15dip"
+             android:textSize="30dip"
+             android:textStyle="bold" />
+
+            <!--connect to IT  -->
+            
+            <TextView
+                android:id="@+id/link_to_it_assignment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dip"
+                android:text="1. IT"
+                android:textColor="#000000"
+            	android:textSize="20dip"
+            	/>
+
+            <!-- connect to comps -->
+            
+            <TextView
+                android:id="@+id/link_to_comps_assignment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="2. Computer Science"
+                android:padding="15dip"
+                android:textColor="#000000"
+            	android:textSize="20dip"
+            	/>
+            
+            <SlidingDrawer
+	    android:id="@+id/slidingDrawer2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:content="@+id/content"
+	    android:handle="@+id/handle" >
+    
+	
+
+	    <ImageButton
+	        android:id="@+id/handle"
+	        android:src="@drawable/handle_pressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+	    
+	    
+	      
+	       
+	    
+	    <TableLayout
+	        android:id="@+id/content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	        
+	        
+	         <TableRow
+	            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+	  <TextView
+	            android:id="@+id/link_to_login"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text=" logout"
+	        	android:layout_gravity="center"
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	       </TableRow>
+	        
+	         <TableRow
+	            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+	         <TextView
+	            android:id="@+id/link_to_dashboard"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	
+	        	android:text="Home  "
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	        
+	         <TextView
+	            android:id="@+id/link_to_events"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="    Events"
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	         </TableRow>
+	         
+	          <TableRow
+	            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+	         <TextView
+	            android:id="@+id/link_to_help"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="Help  "
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	       
+	         <TextView
+	            android:id="@+id/link_to_lect_notes"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="    Lecture Notes"
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	         </TableRow>
+	          <TableRow
+	            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+	         
+	           <TextView
+	            android:id="@+id/link_to_settings"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="25dip"
+	        	android:text="Settings  "
+	        	android:textColor="#000000" />
+	        
+	         <TextView
+	            android:id="@+id/link_to_assignments"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="    Assignments"
+	        	android:textColor="#000000"
+	        	android:textSize="25dip" />
+	         
+	         </TableRow>
+	         
+	       
+	       
+	        
+	    
+	   </TableLayout>
+	</SlidingDrawer>
+   
+
+</LinearLayout>
